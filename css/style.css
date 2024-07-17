@@ -182,7 +182,7 @@ h3 {
 
 .nosotros {
     display: grid;
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
 }
 
 @media (min-width: 768px) {
@@ -190,10 +190,7 @@ h3 {
         grid-template-columns: repeat(2, 1fr);
         column-gap: 2rem;
     }
-
 }
-
-.nosotros__contenido {}
 
 .nosotros__imagen {
     grid-row: 1 / 2;
